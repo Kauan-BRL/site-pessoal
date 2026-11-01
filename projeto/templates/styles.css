@@ -1,36 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap');
 h1{
-    span{
-        color:rgb(235, 33, 33);
-    }
-    padding: 10px 50px;
+    margin:0;
     color: rgb(83, 233, 95);
     background-color: rgb(26,76,95);
     font-size: 45px;
     font-weight: bold;
+    font-family: 'EB Garamond', serif;
     text-align: center
-
 }
 
 h2{
     color: rgb(26, 76, 95);
     font-size: 30px;
-}
-
-h1,h2{
     font-family: 'EB Garamond', serif;
 }
-a{
+
+.título{
+    color:rgb(235, 33, 33);
+}
+
+.contatos{
     text-decoration: none;
     color: rgb(207, 54, 54)
 }
 
-img {
+.foto {
     display: block;
     margin: 0 auto;
     border-radius: 100px;
+    max-width: 100%;
+    max-height:100%;
 }
 
+
+.topo{
+    margin:0;
+    border-bottom: 1px solid black;
+    height: 100px;
+    background-color: rgb(26,76,95);
+    color:rgb(26,76,95)
+}
+.rodape{
+    background-color:rgb(26, 76, 95);
+    margin:0;
+    padding:0;
+    height: 200px;
+}
+
+#copyright{
+    margin:0;
+    padding:0;
+}
 footer {
     h2, p{
         color:rgb(83, 233, 95)
@@ -38,15 +58,14 @@ footer {
     background-color: rgb(26,76,95)
 }
 
-.topo{
-    border-bottom: 1px solid black;
-    height: 110px;
-    background-color: rgb(26,76,95);
-    color:white
-}
-
 body {
     background-color: rgb(245, 239, 239);
     margin: 0;
     padding: 0;
+}
+
+body {
+    max-width:2000px;
+    margin:0 auto;
+    padding:0 auto;
 }

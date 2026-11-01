@@ -1,4 +1,4 @@
-# 👨‍💻 Meu Portfólio Pessoal
+# 👨‍💻 Meu Site Pessoal
 
 Bem-vindo ao meu site pessoal! Este projeto foi desenvolvido com o objetivo de apresentar um pouco sobre mim, minhas habilidades, interesses e minha trajetória no universo da tecnologia.
 
@@ -15,7 +15,7 @@ O site funciona como uma apresentação pessoal, reunindo informações sobre mi
 ## 📂 Estrutura do projeto
 
 ```text
-projeto/
+site pessoal/
 ├── templates/
 │   ├── assets/
 │   │   ├── icons/

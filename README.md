@@ -38,7 +38,7 @@ site pessoal/
 2. Entre na pasta do projeto:
 
    ```bash
-   cd site-pessoal
+   cd site pessoal
    ```
 
 3. Execute a aplicação Python:

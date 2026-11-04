@@ -58,7 +58,12 @@ h2{
 p, li{
     color: rgb(83, 79, 79);
     font-size: 1rem;
-    line-height: 2.0;
+    line-height: 1.5;
+}
+
+.hobby-highlight{
+    background-color:rgb(226, 253, 255);
+    font-weight: bold;
 }
 
 footer {

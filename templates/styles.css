@@ -4,7 +4,7 @@ html{
 }
 
 body {
-    font-family: 'EB Garamond',serif;
+    font-family: 'Garamond',serif;
     color:black;
     background-color: rgb(197, 213, 221);
     margin: 0;
@@ -27,20 +27,20 @@ header {
     margin:0;
 }
 
-#titulo{
+.cabeçalho{
     background-color:rgb(26,76,95);
     height: 100%;
 }
 
-header h1{
-    color: rgb(83, 233, 95);
-    background-color: rgb(26,76,95);
-    font-size: 3rem;
+#titulo{
+    font-size: 3.5rem;
     font-family: 'EB Garamond', serif;
     font-weight: bold;
     text-align: center;
+    color: rgb(83, 233, 95);
+    background-color: rgb(26,76,95);
     margin:0;
-    padding: 0.7% 0px 0.7% 0px;
+    padding: 0.5% 0px 0.5% 0px;
 }
 
 header span{
@@ -49,36 +49,37 @@ header span{
 
 
 h2{
-    color: rgb(27, 98, 145);
     font-size: 2rem;
     font-family: 'EB Garamond', serif;
+    color: rgb(27, 98, 145);
     margin: 10px 00px 10px 0px;
 }
 
 p, li{
+    font-size: 1.1rem;
     color: rgb(83, 79, 79);
-    font-size: 1rem;
     line-height: 1.5;
 }
 
 .hobby-highlight{
-    background-color:rgb(226, 253, 255);
     font-weight: bold;
+    background-color:rgb(226, 253, 255);
 }
 
 footer {
-    background-color:rgb(26,76, 95);
-    border-top: 3px solid black;
     text-align: center;
+    background-color:rgb(26,76, 95);
     width: 100vw;
+    border-top: 3px solid black;
     margin: 0;
     padding:0;
 }
 footer h2{
-    padding-top: 10px;
-    color:rgb(18, 180, 192);
+    font-size: 2.2rem;
     text-decoration: underline;
     text-decoration-thickness: 2px;
+    padding-top: 10px;
+    color:rgb(18, 180, 192);
 }
 
 footer p{
